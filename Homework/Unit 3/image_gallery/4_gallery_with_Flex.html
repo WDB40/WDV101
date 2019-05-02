@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Gallery</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Helvetica", Arial, sans-serif;
+        }
+
+        div {
+            background-color:lightgray;
+            padding: 10px;
+            width:90%;
+            margin: 20px auto;
+
+        }
+
+        header {
+            text-align: center;
+            padding: 25px;
+        }
+
+        figure{
+            border: 2px solid purple;
+            background-color: white;
+            padding: 10px;
+            margin: 15px;
+            width: 270px;
+        }
+
+        figcaption{
+            font-size: 0.9em;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .flex-container > figure{
+            border: 1px solid black;
+            padding: 5px;
+            background-color: white;
+            width: 260px;
+            margin: 20px auto;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <header>
+        <h1>Images Using Flex Box Properties</h1>
+        <p>The flex box properties allow images contained within block elements (such as div or figure) to wrap and flow.</p>
+    </header>
+
+    <!-- Photo Gallery -->
+    <div class="flex-container">
+        <figure>
+            <img src="images/balloons.jpg" alt="Balloons">
+            <figcaption>Fig.1 Neuf Balloons</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/border_collie.jpg" alt="Border Collie">
+            <figcaption>Fig.2 Border Collie</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/frog.jpg" alt="Frog">
+            <figcaption>Fig.3 Yellow Frog</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/pepper_cob.jpg" alt="Corn">
+            <figcaption>Fig.4 Pepper with Corn</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/off_road.jpg" alt="Off Road">
+            <figcaption>Fig.5 Off Road Cycling</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/beagle_puppy.jpg" alt="Puppy">
+            <figcaption>Fig.6 Beagle Puppy</figcaption>
+        </figure>
+    </div>
+
+</div><!--close container div-->
+</body>
+</html>
+

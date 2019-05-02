@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+body{
+    background-color: sandybrown;
+}
+
+h1{
+    text-align: center;
+    background-color: saddlebrown;
+    color: sandybrown;
+    font-family: 'Courgette', cursive;
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+    background-color: saddlebrown;
+    color: sandybrown;
+    font-family: 'Courgette', cursive;
+    padding: 5px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    color: saddlebrown;
+    font-family: 'Courgette', cursive;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    border-bottom: 2px solid saddlebrown;
+}
+
+p{
+    font-family: 'open_sanslight', sans-serif ;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/OpenSans-Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav{
+    background-color: saddlebrown;
+    line-height: 200%;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    padding-right: 40px;
+    font-family: 'open_sanslight', sans-serif;
+}
+
+nav a{
+    color: sandybrown;
+    text-decoration: none;
+}
+
+nav a:hover{
+    padding: 10px;
+    color: saddlebrown;
+    background-color: sandybrown;
+}
+
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: sandybrown;
+    border: 5px solid saddlebrown;
+
+}
+
+img.banner{
+    width: 100%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.imgFooter{
+    font-size: small;
+    text-align: center;
+}
+
+p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section ul{
+    font-family: 'open_sanslight', sans-serif;
+    font-size: small;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+em:hover{
+    font-weight: bold;
+}
+
+.standout{
+    font-family:'Courgette', cursive;
+}
+
+.chocolateHeart{
+    float:right;
+    width: 30%;
+    padding: 3px;
+    background-color: sandybrown;
+    border: 3px solid saddlebrown;
+
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skillset</title>
+
+    <link rel="stylesheet" type="text/css" href="css/skillset.css">
+</head>
+<body>
+
+<div id="formcontainer">
+    <form id="skillset_form" method="post" action="">
+        <legend>My Skillset</legend>
+        <p style="font-style: italic">Information about my education skills.</p>
+
+        <fieldset>
+            <div>
+                <label for="firstname">First Name</label>
+                <input id="firstname" name="firstname" type="text">
+            </div>
+
+            <div>
+                <label for="lastname">Last Name</label>
+                <input id="lastname" name="lastname" type="text">
+            </div>
+
+            <p style="margin-left: 200px">My major is...</p>
+            <div>
+                <input id="webdev" name="major" type="radio">
+                <label for="webdev">Web Development</label>
+            </div>
+
+            <div>
+                <input id="d_marketing" name="major" type="radio">
+                <label for="d_marketing">Digital Marketing</label>
+            </div>
+
+            <div>
+                <input id="design" name="major" type="radio">
+                <label for="design">Graphic Design</label>
+            </div>
+
+            <div>
+                <input id="other" name="major" type="radio">
+                <label for="other">Other</label>
+                <input id="otherText" name="other" type="text">
+            </div>
+
+            <div>
+
+                <select id="experience" name="experience">
+                    <option value="1year">1 year or less</option>
+                    <option value="2years">2 years</option>
+                    <option value="3_4years">3-4 years</option>
+                    <option value="5+">5 years or more</option>
+                </select>
+                <label for="experience">Experience Level</label>
+            </div>
+
+            <p style="margin-left: 200px">I am skilled in...</p>
+
+            <div>
+                <input id="html" name="html" type="checkbox">
+                <label for="html">HTML</label>
+            </div>
+
+            <div>
+                <input id="css" name="css" type="checkbox">
+                <label for="css">CSS</label>
+            </div>
+
+            <div>
+                <input id="javascript" name="javascript" type="checkbox">
+                <label for="javascript">JavaScript</label>
+            </div>
+
+            <div>
+                <input id="frontend" name="frontend" type="checkbox">
+                <label for="frontend">Front End Design</label>
+            </div>
+
+            <div>
+                <input type="submit" id="submit" name="submit" value="Submit">
+                <input type="reset" id="reset" name="reset" value="Reset">
+            </div>
+
+        </fieldset>
+
+    </form>
+
+</div>
+
+</body>
+</html>

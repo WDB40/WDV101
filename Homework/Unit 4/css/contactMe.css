@@ -1,0 +1,83 @@
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body  {
+    font-size:125%;
+    color: #333;
+    background-color:bisque;
+}
+
+#formcontainer  {
+    background-color: darkseagreen;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+fieldset1  {
+    width: 25em;
+    margin: 20px;
+}
+
+fieldset1 div  {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+fieldset2  {
+    width: 25em;
+    margin: 20px;
+}
+
+fieldset2 div  {
+    margin: 5px 0;
+    display: flex;
+}
+
+input, textarea, select  {
+    font-size: 1.1em;
+    padding: 2px 5px 4px;
+    border-radius: 5px;
+    margin-top:5px;
+    order:2;
+    flex: 1 1 auto;
+}
+
+label  {
+    order: 1;
+    width: 10em;
+    text-align: right;
+    padding-right: 0.5em;
+}
+
+input[type=submit], input[type=reset] {
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 6px;
+    width: 40px;
+    margin-right: 30px;
+}
+
+input[type=submit]  {
+    margin-left: 255px;
+}
+
+img.banner{
+    width:100%;
+}
+
+header{
+    background-color: darkseagreen;
+    text-align: center;
+    color: azure;
+    padding: 5px;
+}

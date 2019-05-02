@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+body, p{
+    background-color: aliceblue;
+    color: midnightblue;
+    font-family: "Open Sans", sans-serif;
+}
+
+main{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.siteTitle{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Francois One', sans-serif;
+}
+
+header img.banner{
+    width: 100%;
+    border-bottom: solid deepskyblue 2px;
+    border-top: solid deepskyblue 2px;
+}
+
+header{
+    background-color: midnightblue;
+    border-bottom: solid deepskyblue 2px;
+}
+
+h1.pageTitle{
+    font-family: 'Francois One', sans-serif;
+    border-bottom: solid deepskyblue 3px;
+
+}
+
+h2.sectionTitle{
+    border-bottom: solid deepskyblue 2px;
+}
+
+nav{
+    background-color: midnightblue;
+    line-height: 200%;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    padding-right: 40px;
+    font-family: 'open_sanslight', sans-serif;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 2px;
+}
+
+nav a:hover{
+    color: midnightblue;
+    background-color: aliceblue;
+}
+
+main img{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: solid deepskyblue 2px;
+}

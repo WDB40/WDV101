@@ -1,0 +1,77 @@
+/* This css structure of this web site*/
+
+*  {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+#container
+		{
+		width:1000px;
+		border-width:1px;
+		margin:20px auto;
+		background-color: white;
+		border:2px solid black;
+		border-radius: 25px;
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+		}
+
+header img  {
+		display:block;
+		margin: 0 auto;
+		border: hidden;
+		padding:0;
+		border-top-left-radius: 27px;
+	    border-top-right-radius: 27px;
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+		}
+		
+		
+	nav  {
+		padding: 10px;
+		color:white;
+		background-color: black;
+		}
+
+aside  {
+		width: 300px;
+		margin-right: 20px;
+		padding: 15px 10px 0 40px;
+		background-color: orange;
+		float: left;
+		height: 813px;
+		}
+	
+aside h4  {
+			border: 0;
+			margin: 10px 0 5px 0;
+			}
+
+#rightsidebar  {
+		width: 300px;
+		margin-left: 20px;
+		padding: 15px 40px 0 10px;
+		background-color: orange;
+		float: right;
+		height: 813px;
+		}
+	
+	main
+		{
+		padding: 15px;
+		background-color:white;
+		}
+
+	footer  {
+	    color:white;
+		padding: 10px;
+		background-color: black;
+		text-align: center;
+		clear: both;
+	    border-bottom-left-radius: 24px;
+	    border-bottom-right-radius: 24px;
+		}
+		
+		

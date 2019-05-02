@@ -1,0 +1,41 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: orange;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    margin-top: 20px;
+}
+
+.flex-container > figure{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #1F3747;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+figcaption.name{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+figcaption.info{
+    font-weight: bold;
+}
+
+figcaption.description{
+    padding-top: 15px;
+    font-style: italic;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+figcaption img{
+    width:100%;
+}

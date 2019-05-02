@@ -1,0 +1,47 @@
+figcaption.heading{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+figcaption.subHeading{
+    font-style: italic;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+figcaption.text{
+    font-size: 15px;
+}
+
+figure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: lightgoldenrodyellow;
+    border-radius: 25px;
+    border: 1px solid blue;
+}
+
+.flex-container > figure{
+    border: 1px solid purple;
+    padding: 5px;
+    background-color: lightpink;
+    width: 260px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightgrey;
+}
+
+header h1{
+    text-align: center;
+}

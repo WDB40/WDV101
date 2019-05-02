@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Days+One');
+
+body{
+    background-color: #ff7762;
+    font-family: PT Sans, sans-serif;
+}
+
+main{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffc8b5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header{
+    position: relative;
+}
+
+header h1{
+    text-align: center;
+    color: #ffc8b5;
+    padding: 5px;
+    border: 5px solid #ffc8b5;
+    border-radius: 10px;
+    margin-top: -5px;
+    font-family: Montserrat, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+header img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+main img.centered{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main h1,h2{
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+}
+
+main h3{
+    padding-bottom: 2px;
+    border-bottom: 1px dashed black;
+}
+
+.footer{
+    background-color: #ff4c5e;
+    border-radius: 10px;
+    height: 80px;
+    margin-top: 5px;
+}
+
+nav  {
+    background-color: #ff4c5e;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Montserrat, sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+nav a  {
+    color:white;
+    text-decoration:none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: white;
+    background-color:#ff7762;
+    padding: 4px 15px;
+}
+
+table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+table td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+table th{
+    background-color: black;
+    color: ghostwhite;
+}
+
+.submitButton{
+    margin-left: 80%;
+    align-items: end;
+}
+
+label{
+    font-weight: bold;
+}
+
+.note{
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}

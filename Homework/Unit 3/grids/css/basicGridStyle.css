@@ -1,0 +1,46 @@
+
+/* You can apply properties to the grid container similar to a container div id*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto; /* the number of values determines how many columns. Auto indicates they are all the same. You can also put pixel and/or percent values for specific sizes. This example shows 3 columns. */
+    background-color: darkblue;
+    grid-gap:10px; /*Grid gap is shorthand property of grid-column-gap and grim-row-gap. It puts space between the items. */
+    padding: 10px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* The grid item is the grid cell (similar to a tabel cell). You can apply propertis to each grid item. All direct children of the grid container automatically become grid items.*/
+
+
+.grid-item {
+    background-color: lightblue;
+    border: 1px solid red;/* The border property puts a line around the cells or items.*/
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* In addition or instead of grid item, you can control the look of each item by creating a class for each item.*/
+.item1  {
+    background-color: lightblue;
+    border: 1px solid red;/* The border property puts a line around the cells or items.*/
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1; /* grid-column start and end will span the item (cell) along the columns. You can span rows by changing to grid-row-start.*/
+    grid-column-end: 4;
+    color: red;
+
+}
+
+.item6  {
+    background-color: lightblue;
+    border: 1px solid red;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-row: 3 / span 2; /* grid-column start and end will span the item (cell) along the columns. You can span rows by changing to grid-row-start.*/
+    color: red;
+
+}

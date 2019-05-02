@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Navigation Bar - Flex</title>
+    <style>
+        nav{
+            font-family: "Helvetica", Arial, sans-serif;
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        nav ul{
+            display: flex;
+            flex-wrap: wrap;
+            //flex-wrap: nowrap;
+            justify-content: center;
+            //justify-content: space-between;
+            //justify-content: flex-start;
+            //justify-content: flex-end;
+            list-style-type: none;
+        }
+
+        nav a{
+            color: white;
+            background-color: #60B99A;
+            display: block;
+            padding: 5px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            width: 100px;
+            text-align: center;
+        }
+
+        nav a:hover{
+            color: white;
+            background-color: #4584B1;
+            display: block;
+            padding: 5px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Contact Us</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>

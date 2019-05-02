@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Gallery</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Helvetica", Arial, sans-serif;
+        }
+        .container {
+            background-color:lightgray;
+            padding: 10px;
+            width:90%;
+            margin: 20px auto;
+
+        }
+
+        header {
+            text-align: center;
+            padding: 25px;
+        }
+
+        figure{
+            border: 2px solid purple;
+            background-color: white;
+            padding: 10px;
+            margin: 15px;
+            width: 270px;
+        }
+
+        figcaption{
+            font-size: 0.9em;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Images with Figure and Figcaption Elements</h1>
+        <p>The figure element is like a div and contains an image element. There is nothing special about the figure element - it functions just like a div, it simply allows for differentiation from other elements and can be styled just like divs. Figure is a block element. As such once images are contained within the figure element, they cease to flow.</p>
+    </header>
+
+    <!-- Photo Gallery -->
+    <div class="container">
+        <figure>
+            <img src="images/balloons.jpg" alt="Balloons">
+            <figcaption>Fig.1 Neuf Balloons</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/border_collie.jpg" alt="Border Collie">
+            <figcaption>Fig.2 Border Collie</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/frog.jpg" alt="Frog">
+            <figcaption>Fig.3 Yellow Frog</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/pepper_cob.jpg" alt="Corn">
+            <figcaption>Fig.4 Pepper with Corn</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/off_road.jpg" alt="Off Road">
+            <figcaption>Fig.5 Off Road Cycling</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/beagle_puppy.jpg" alt="Puppy">
+            <figcaption>Fig.6 Beagle Puppy</figcaption>
+        </figure>
+    </div>
+
+</div><!--close container div-->
+</body>
+</html>
+

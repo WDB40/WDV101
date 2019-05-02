@@ -1,0 +1,31 @@
+.left{
+    grid-area: left;
+}
+
+.center{
+    grid-area: center;
+}
+
+.right{
+    grid-area: right;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+        'left right';
+
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+figcaption{
+    font-style: italic;
+    font-size: 15px;
+    width: 75%;
+}
+
+.grid-container > div{
+    margin-right: auto;
+    margin-left: auto;
+}
